@@ -1,0 +1,20 @@
+{
+  "name": "auth-utils",
+  "version": "0.1.0",
+  "description": "Utility modules to help implement user authentication",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel -d dist/ src/",
+    "test": "cd test/ && node index.test.js"
+  },
+  "keywords": [
+    "authentication"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.1.0"
+  }
+}
